@@ -1,5 +1,5 @@
 @echo off
-SET admin_st3_path=cd 'c:\\program files\\sublime text 3\\'; Start-Process sublime_text.exe -Verb runAs
+SET admin_st3_path=powershell cd 'c:\\program files\\sublime text 3\\'; Start-Process sublime_text.exe -Verb runAs
 SET st3_path=C:\Program Files\Sublime Text 3\sublime_text.exe
 SET st3_label_edit=Edit with Sublime Text
 SET st3_label_admin_edit=Edit with Sublime Text as Admin
